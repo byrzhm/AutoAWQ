@@ -169,7 +169,7 @@ tokens = tokenizer(
 generation_output = model.generate(
     tokens, 
     streamer=streamer,
-    max_seq_len=512
+    max_new_tokens=512
 )
 ```
 
